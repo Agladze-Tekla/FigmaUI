@@ -20,7 +20,7 @@ struct ProfileView: View {
     
     var body: some View {
         
-        VStack {
+        VStack(spacing: 21) {
             ImageView()
             NameStructView(nameText: $nameText)
             EmailStructView(emailText: $emailText)
